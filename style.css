@@ -1,0 +1,13 @@
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.botoes > td:hover{
+  cursor:pointer;
+  background: #70c27e;
+}
+#calculadora{
+  margin: 100px auto;
+}
