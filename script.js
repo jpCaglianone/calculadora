@@ -2,12 +2,15 @@
 //let temSinal = false
 //let temPonto = false
 // let clear
-
+let visor = document.getElementById("visor");
 visor.innerText = 0;
+
+
 let acumulador = ""; 
 
+
 function botaoUm(){
-  acumulador += "1"; // acumulador = acumulador + "1";
+  acumulador += "1";
   visor.innerText = acumulador;
 }
 function botaoDois(){
@@ -43,6 +46,15 @@ function botaoNove(){
   visor.innerText = acumulador;
 }
 function botaoZero(){
-  acumulador += "0"; 
-  visor.innerText = acumulador;
+
+  if(acumulador!="" && acumulador[0]!="0"){
+    acumulador += "0"; 
+    visor.innerText = acumulador;
+  }
 }
+function limpar(){
+   acumulador = "";
+   visor.innerText = "0";
+}
+
+// import - export

@@ -3,7 +3,9 @@ html, body {
   height: 100%;
   width: 100%;
 }
-
+table{
+  margin: 100px auto;
+}
 td{
   border-radius: 5px;
   font-size:20px;
@@ -11,13 +13,13 @@ td{
 .botoes > td:hover{
   cursor:pointer;
   background: #70c27e;
-  transition: all 0.25s;
-}
-#calculadora{
-  margin: 100px auto;
+  transition: all 0.1s;
 }
 .botoes > td:active{
   transform:scale(0.9);
   background: #8ed79a;
   transition: all 0.1s;
+}
+#calculadora{
+  margin: 100px auto;
 }

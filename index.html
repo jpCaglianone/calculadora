@@ -13,8 +13,6 @@
 
   <table border="2" cellpadding="30" cellspacing="10">
   
-      Calculadora
-    
     <tbody>
       
       <tr> <!-- linha 1 -->
@@ -22,32 +20,32 @@
       </tr>
      
         <tr class="botoes"> <!-- linha 2 -->
-          <td id="um" onclick="botaoUm()">1</td>
-          <td id="dois" onclick="botaoDois()">2</td>
-          <td id="tres" onclick="botaoTres()">3</td>
-          <td id="somar" onclick="botaoSoma()">+</td>
-          <td id="porcento" onclick="botaoPorcento()">%</td>
+          <td onclick="botaoUm()">1</td>
+          <td onclick="botaoDois()">2</td>
+          <td onclick="botaoTres()">3</td>
+          <td onclick="botaoSoma()">+</td>
+          <td onclick="botaoPorcento()">%</td>
         </tr>
   
         <tr class="botoes"> <!-- linha 3 -->
-          <td id="quatro" onclick="botaoQuatro()">4</td>
-          <td id="cinco" onclick="botaoCinco()">5</td>
-          <td id="seis" onclick="botaoSeis()">6</td>
+          <td onclick="botaoQuatro()">4</td>
+          <td onclick="botaoCinco()">5</td>
+          <td onclick="botaoSeis()">6</td>
           <td>-</td>
           <td>!</td>
         </tr>
 
        <tr class="botoes"> <!-- linha 3 -->
-          <td id="sete" onclick="botaoSete()">7</td>
-          <td id="oito" onclick="botaoOito()">8</td>
-          <td id="nove" onclick="botaoNove()">9</td>
+          <td onclick="botaoSete()">7</td>
+          <td onclick="botaoOito()">8</td>
+          <td onclick="botaoNove()">9</td>
           <td>*</td>
           <td rowspan="2">=</td>
         </tr>
 
       <tr class="botoes"> <!-- linha 4 -->
-          <td>C</td>
-          <td>0</td>
+          <td onclick="limpar()">C</td>
+          <td onclick="botaoZero()">0</td>
           <td>.</td>
           <td>/</td>         
         </tr>
@@ -56,9 +54,7 @@
    
   </table>
 
-
-
-  <script src="script.js" theme="blue" defer></script> 
+  <script src="script.js"></script> 
 </body>
 
 </html>
