@@ -4,10 +4,20 @@ html, body {
   width: 100%;
 }
 
+td{
+  border-radius: 5px;
+  font-size:20px;
+}
 .botoes > td:hover{
   cursor:pointer;
   background: #70c27e;
+  transition: all 0.25s;
 }
 #calculadora{
   margin: 100px auto;
+}
+.botoes > td:active{
+  transform:scale(0.9);
+  background: #8ed79a;
+  transition: all 0.1s;
 }
